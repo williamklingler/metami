@@ -1,18 +1,6 @@
 {
-    "name": "metami",
-    "version": "1.0",
-    "description": "digital persona",
-    "background": {
-      "scripts": ["scripts/background.js"],
-      "persistent": false
-    },
-    "content_scripts": {
-      "js": ["scripts/content.js"]
-    },
-    "permissions": ["storage"],  
-    "browser_action": {    
-        "default_icon": "favicon.png",    
-        "default_popup": "./src/extension/popup.html"  
-    },    
-    "manifest_version": 2
+  "name": "metami",
+  "description": "digital persona",
+  "version": "1.0",
+  "manifest_version": 3
 }
